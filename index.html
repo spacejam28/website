@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Portfolio.">
+    <meta name="keywords" content="Gabriel Ganev">
+		<meta name="author" content="Gabriel Ganev">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="darkStyles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    
+    <title>realgptv01</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  </head>
+  
+  <body>
+  
+    <!-- Sidebar for mobile layout -->
+    <div id="sidebarDiv" class="sidebar mobileLayout blockStyle">
+      
+      <div id="sidebarXDiv" class="sidebar mobileLayout blockStyle">
+        <span id="sidebarXSpan" class="sidebar mobileLayout inlineblockStyle">
+          <img src="assets/x.png" alt="Close" id="sidebarX" 
+          class="sidebar mobileLayout blockStyle">
+        </span>
+      </div>
+      
+			<!-- This is where the tabs in the sidebar get placed via JS -->
+      <span id="tabSpan" class="sidebar mobileLayout inlineblockStyle"></span>
+			
+    </div>
+    
+    <!-- Covers content as the user scrolls down -->
+    <div id="contentCover"></div>
+    
+    <span id="hamburgerSpan" class="mobileLayout sidebarHoverable">
+      <img src="assets/hamburger.png" alt="Hamburger" id="hamburger" class="mobileLayout">
+    </span>
+    
+		<a href="index.html">
+			<img src="assets/redtv.gif" alt="Red TV!" id="headImg" class="PCLayout"
+			title="That's me!">
+		</a>
+    
+    <!-- The header-content divider -->
+    <span id="topSpan">
+      <div id="topCoverDiv"></div>
+      <div id="topRuleDiv"></div>
+    </span>
+    
+    <!-- Desktop navigation bar -->
+		<!-- Signs are added here via JS -->
+    <div id="navDiv" class="PCLayout"></div>
+    
+    <div id="moreMenu" class="PCLayout"></div>
+		
+	<img src="assets/loadingCircle.png" alt="Loading..." id="loadingCircle">
+	
+    <div id="content">
+	
+		<h1>News - March 10, 2025</h1>
+			<p>My track, boss fight has been officially released on music stores!! 
+			Listen to it <a href="https://share.amuse.io/track/gptv01-boss-fight">here</a>!</p>
+			<a href="https://share.amuse.io/track/gptv01-boss-fight">
+				<img src="https://cdn.amuse.io/9557f43c-35a2-44a5-b509-7aa0615f2253.400x400.jpg" alt="boss fight Cover" class="newsImage" title="boss fight">
+			</a>
+		<br><hr><br>
+		<p> Stay tuned for more news! </p>
+		<footer></footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
