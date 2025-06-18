@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome / Bienvenue</title>
+<style>
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffcccc, #ff0000); /* Gradient from light red to red */
+  }
+
+  .container {
+    display: flex;
+    gap: 20px; /* Space between the two language boxes */
+    padding: 20px;
+  }
+
+  .language-box {
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Optional: a subtle shadow */
+    width: 300px; /* Fixed width for the boxes */
+  }
+
+  .language-box h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: black;
+  }
+
+  .language-box p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  .language-button {
+    display: block;
+    width: 80%; /* Button width relative to its container */
+    padding: 15px 20px;
+    margin: 0 auto; /* Center the button */
+    background-color: #ff3333; /* Red button */
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px; /* Slightly rounded corners for the button */
+    transition: background-color 0.3s ease;
+  }
+
+  .language-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+
+  /* Red bar at the top, similar to the image */
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px; /* Height of the bar */
+    background-color: #ff0000;
+  }
+</style>
+</head>
+<body>
+
+  <div class="top-bar"></div>
+
+  <div class="container">
+    <div class="language-box">
+      <h2>Welcome</h2>
+      <p>This website is the official site of the GPTV01 YouTube channel.</p>
+      <a href="english.html" class="language-button">English</a>
+    </div>
+
+    <div class="language-box">
+      <h2>Bienvenue</h2>
+      <p>Ce site Web est le site officiel de la chaîne YouTube GPTV01.</p>
+      <a href="francais.html" class="language-button">Français</a>
+    </div>
+  </div>
+
+</body>
+</html>

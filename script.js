@@ -94,25 +94,25 @@ const pageDetails =
 [
 	{
 		"name":      "About", 
-		"pageLink":  "about.html",
+		"pageLink":  "../pages/about.html",
 		"labelLink": "aboutLabel.png",
 		"iconLink":  "question.png"
 	},
 	{
 		"name":      "Projects", 
-		"pageLink":  "projects.html",
+		"pageLink":  "../pages/projects.html",
 		"labelLink": "projectsLabel.png",
 		"iconLink":  "gears.png"
 	},
 	{
 		"name":      "Videos",
-		"pageLink":  "videos.html",
+		"pageLink":  "../pages/videos.html",
 		"labelLink": "videosLabel.png",
 		"iconLink":  "television.png"
 	},
 	{
 		"name":      "Music", 
-		"pageLink":  "music.html",
+		"pageLink":  "../pages/music.html",
 		"labelLink": "musicLabel.png",
 		"iconLink":  "musicnote.png"
 	},
